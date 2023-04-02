@@ -5,7 +5,7 @@
 <h6>Le serveur avec un client Telnet</h6>
 <img src="Captures/Capture2.PNG">
 <h6>Le serveur avec un client JAVA avec une interface JAVAFX</h6>
-<img src="Captures/Capture3.png">
+<img src="Captures/Capture3.PNG">
 <h6>Le serveur avec un client python</h6>
 <img src="Captures/Capture4.PNG">
 <h4>Modèle Single Thread avec NonBlocking IO</h4>
