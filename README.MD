@@ -12,6 +12,6 @@
 <h5>1. Serveur Single Thread utilisant des entrées sorties non bloquantes/h5>
 <img src="Captures/Capture5.PNG">
 <h6>Le serveur avec un client JAVA</h6>
-<img src="Captures/Capture6.png">$
+<img src="Captures/Capture6.png">
 <h6>Le serveur avec un client TELNET</h6>
 <img src="Captures/Capture7.png">
