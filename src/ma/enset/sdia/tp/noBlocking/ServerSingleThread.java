@@ -15,9 +15,8 @@ public class ServerSingleThread {
         ServerSocketChannel serverSocketChannel = ServerSocketChannel.open();
         serverSocketChannel.configureBlocking(false);
         serverSocketChannel.bind(new InetSocketAddress("localhost", 12345));
-        // int ops = serverSocketChannel.validOps();
         serverSocketChannel.register(selector, SelectionKey.OP_ACCEPT);
-        System.out.println(" serveur démarré.........");
+        System.out.println("Le serveur Single thread est démarré ... .");
         while (true) {
             int select = selector.select();
             Set<SelectionKey> selectionKeys = selector.selectedKeys();
